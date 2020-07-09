@@ -2,7 +2,6 @@
   "name": "webpack-ex",
   "version": "1.0.0",
   "description": "Simple webpack environment",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,16 @@
   "bugs": {
     "url": "https://github.com/lynconEBB/webpack-example/issues"
   },
-  "homepage": "https://github.com/lynconEBB/webpack-example#readme"
+  "homepage": "https://github.com/lynconEBB/webpack-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0"
+  }
 }
