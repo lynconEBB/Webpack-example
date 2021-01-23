@@ -16,7 +16,6 @@ module.exports = merge(common,{
     optimization:{
         minimizer:[
             new OptimizeCssAssetsPlugin(),
-            new TerserPlugin(),
             new HtmlWebpackPlugin({
                 template:'./src/template.html',
                 minify:{
